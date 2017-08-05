@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'futura'; /*a name to be used later*/
+    src: url('font.ttf'); /*URL to font*/
+}
+
+
+html {
+	font-family: 'futura';
+	zoom: 110%;
+	
+}
+
+body {
+    overflow-x:hidden;
+}
+
+.navigation {
+	height: 50px;
+	background-color: black;
+}
+
+.topBar {
+	padding-top: 5px;
+}
+
+.top1 {
+	margin-left: 8px;
+
+}
+
+.top1 h4 {
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	margin-right: 30px;
+	font-family: 'futura';
+	color: #009541;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+
+.logo {
+	height: 30px;
+}
+
+.logoArea {
+	margin-top: 15px;
+}
+
+.homeContainer {
+	background: url("background3.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 900px;
+}
+
+
+
+#mainLogo {
+
+	height: 400px;
+	margin: auto;
+	display: block;
+}
+
+.contentArea {
+	margin-top: 50px;
+	height: 700px;
+	background-color: #009541;
+}
+
+.selectorArea {
+	margin-top: 5px;
+	height: 55px;
+}
+
+.selectorNav {
+	
+}
+
+.nav1 {
+	margin-top: 3px;
+}
+
+.nav1 a h2{
+	padding: 4px;
+	background-color: #009541;
+	margin-top: 2px;
+	font-family: 'futura';
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+	margin-left: 6px;
+	margin-right: 6px;
+	height: 40px;
+	font-weight: bold;
+	transition: ease-in-out 0.2s;
+	transition-delay: 2000;
+}
+
+.nav1 a h2:hover{
+	transition: ease-in-out 0.2s;
+	transition-delay: 2000;
+	background-color: #ebebeb;
+	color: #009541;
+}
